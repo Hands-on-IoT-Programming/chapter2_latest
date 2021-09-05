@@ -9,9 +9,10 @@
     "solution": "node node_modules/node-red/red.js --settings=./settings.js flows/flow_solved.json"
   },
   "dependencies": {
-    "node-red": "~1.0.4",
-    "node-red-admin": "~0.1.5",
-    "node-red-contrib-device-stats": "~1.1.2",
-    "node-red-dashboard": "~2.19.4"
+    "node-red": "latest",
+    "node-red-admin": "latest",
+    "node-red-contrib-device-stats": "latest",
+    "node-red-contrib-moment": "^4.0.0",
+    "node-red-dashboard": "latest"
   }
 }
